@@ -4,4 +4,5 @@ Bubble Mini Game project developed with custom .xib file for BubbleView and UIVi
 
 Example of creating custom views with IB and animations.
 
-https://user-images.githubusercontent.com/62390334/222681458-d3042833-c95f-442d-ac34-23a0252ad62e.mp4
+https://user-images.githubusercontent.com/62390334/222685177-73a32993-66f0-4c0c-9758-d525485d090d.mp4
+
