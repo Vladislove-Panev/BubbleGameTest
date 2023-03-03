@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         )
         sender.setTranslation(.zero, in: view)
         
+        view.bringSubviewToFront(gestureView)
+        
         guard sender.state == .ended else { return }
         
         intersectionLogic(for: gestureView)
