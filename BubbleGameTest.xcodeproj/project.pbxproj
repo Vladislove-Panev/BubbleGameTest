@@ -13,6 +13,8 @@
 		8BE650FC29B1D17A008B7CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE650FA29B1D17A008B7CCB /* Main.storyboard */; };
 		8BE650FE29B1D17B008B7CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE650FD29B1D17B008B7CCB /* Assets.xcassets */; };
 		8BE6510129B1D17B008B7CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE650FF29B1D17B008B7CCB /* LaunchScreen.storyboard */; };
+		8BE6510929B1D29A008B7CCB /* CustomCircleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE6510829B1D29A008B7CCB /* CustomCircleView.xib */; };
+		8BE6510B29B1D2E1008B7CCB /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6510A29B1D2E1008B7CCB /* CustomCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8BE650FD29B1D17B008B7CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BE6510029B1D17B008B7CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BE6510229B1D17B008B7CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE6510829B1D29A008B7CCB /* CustomCircleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCircleView.xib; sourceTree = "<group>"; };
+		8BE6510A29B1D2E1008B7CCB /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B00734B29B1ECF7001878FC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8B00734F29B1ED37001878FC /* LaunchScreen */,
+				8B00734C29B1ED01001878FC /* GameScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8B00734C29B1ED01001878FC /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8B00735029B1ED44001878FC /* Helpers */,
+				8BE650FA29B1D17A008B7CCB /* Main.storyboard */,
+				8BE650F829B1D17A008B7CCB /* ViewController.swift */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		8B00734E29B1ED22001878FC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8BE650F429B1D17A008B7CCB /* AppDelegate.swift */,
+				8BE650F629B1D17A008B7CCB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B00734F29B1ED37001878FC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8BE650FF29B1D17B008B7CCB /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		8B00735029B1ED44001878FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8BE6510A29B1D2E1008B7CCB /* CustomCircleView.swift */,
+				8BE6510829B1D29A008B7CCB /* CustomCircleView.xib */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B00735129B1ED6B001878FC /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				8BE650FD29B1D17B008B7CCB /* Assets.xcassets */,
+				8BE6510229B1D17B008B7CCB /* Info.plist */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
 		8BE650E829B1D179008B7CCB = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +114,9 @@
 		8BE650F329B1D17A008B7CCB /* BubbleGameTest */ = {
 			isa = PBXGroup;
 			children = (
-				8BE650F429B1D17A008B7CCB /* AppDelegate.swift */,
-				8BE650F629B1D17A008B7CCB /* SceneDelegate.swift */,
-				8BE650F829B1D17A008B7CCB /* ViewController.swift */,
-				8BE650FA29B1D17A008B7CCB /* Main.storyboard */,
-				8BE650FD29B1D17B008B7CCB /* Assets.xcassets */,
-				8BE650FF29B1D17B008B7CCB /* LaunchScreen.storyboard */,
-				8BE6510229B1D17B008B7CCB /* Info.plist */,
+				8B00734E29B1ED22001878FC /* Application */,
+				8B00734B29B1ECF7001878FC /* Presentation */,
+				8B00735129B1ED6B001878FC /* Resourses */,
 			);
 			path = BubbleGameTest;
 			sourceTree = "<group>";
@@ -126,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE6510129B1D17B008B7CCB /* LaunchScreen.storyboard in Resources */,
+				8BE6510929B1D29A008B7CCB /* CustomCircleView.xib in Resources */,
 				8BE650FE29B1D17B008B7CCB /* Assets.xcassets in Resources */,
 				8BE650FC29B1D17A008B7CCB /* Main.storyboard in Resources */,
 			);
@@ -139,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE650F929B1D17A008B7CCB /* ViewController.swift in Sources */,
+				8BE6510B29B1D2E1008B7CCB /* CustomCircleView.swift in Sources */,
 				8BE650F529B1D17A008B7CCB /* AppDelegate.swift in Sources */,
 				8BE650F729B1D17A008B7CCB /* SceneDelegate.swift in Sources */,
 			);
@@ -289,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TH3HNHXAQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BubbleGameTest/Info.plist;
+				INFOPLIST_FILE = BubbleGameTest/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TH3HNHXAQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BubbleGameTest/Info.plist;
+				INFOPLIST_FILE = BubbleGameTest/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

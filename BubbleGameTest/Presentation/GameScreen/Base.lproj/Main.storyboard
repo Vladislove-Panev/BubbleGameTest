@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BubbleGameTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6YM-W7-ZnR" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="236" y="152" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HSc-pn-H8r" appends="YES" id="xOt-IW-d6Q"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YS1-mh-c0m" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="169" y="332" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="0vM-HE-vAB" appends="YES" id="AL2-r3-fsn"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1C-VW-zS6" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="82" y="350" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8X9-Wd-RBW" appends="YES" id="UYt-dg-XNe"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRJ-gE-VVY" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="224" y="456" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gL0-ZD-HW3" appends="YES" id="DMi-14-TXi"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N1r-2U-p7R" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="151" y="531" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="0Pb-SJ-EcS" appends="YES" id="wrR-WQ-hNO"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZqX-1T-0TF" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="245" y="602" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lUV-Cu-vnI" appends="YES" id="waM-E7-8ZZ"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0H-m8-c0z" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="97" y="646" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8AC-DB-im7" appends="YES" id="8rs-xT-jLO"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bxh-wL-AT9" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="222" y="710" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ajf-UT-FWt" appends="YES" id="FXq-la-IWf"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h1b-Dc-XN3" customClass="CustomCircleView" customModule="BubbleGameTest" customModuleProvider="target">
+                                <rect key="frame" x="90" y="162" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundCircle" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4Gg-3x-M3I" appends="YES" id="XI3-bY-4aI"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="bubbleViews" destination="h1b-Dc-XN3" collectionClass="NSMutableArray" id="C5V-L9-qOb"/>
+                        <outletCollection property="bubbleViews" destination="6YM-W7-ZnR" collectionClass="NSMutableArray" id="2bS-lc-Ciq"/>
+                        <outletCollection property="bubbleViews" destination="YS1-mh-c0m" collectionClass="NSMutableArray" id="RPm-X2-R6d"/>
+                        <outletCollection property="bubbleViews" destination="j1C-VW-zS6" collectionClass="NSMutableArray" id="ICR-xc-EuL"/>
+                        <outletCollection property="bubbleViews" destination="N1r-2U-p7R" collectionClass="NSMutableArray" id="Im9-5x-h9H"/>
+                        <outletCollection property="bubbleViews" destination="Bxh-wL-AT9" collectionClass="NSMutableArray" id="chQ-Sb-GxM"/>
+                        <outletCollection property="bubbleViews" destination="f0H-m8-c0z" collectionClass="NSMutableArray" id="cZE-4n-coM"/>
+                        <outletCollection property="bubbleViews" destination="DRJ-gE-VVY" collectionClass="NSMutableArray" id="qBr-Ln-093"/>
+                        <outletCollection property="bubbleViews" destination="ZqX-1T-0TF" collectionClass="NSMutableArray" id="UqD-bl-TZl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="4Gg-3x-M3I">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="rfn-RQ-v9L"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Kp3-fz-sfQ"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="0vM-HE-vAB">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="iDf-Qx-0Ve"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="lA2-Cc-8nr"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gL0-ZD-HW3">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="CUR-s5-3iC"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="VRV-e8-jB6"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="0Pb-SJ-EcS">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="igb-sS-qCx"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="k3x-9l-q16"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="lUV-Cu-vnI">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="Dyc-ct-OsA"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="QMl-2Z-2yc"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8AC-DB-im7">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="9rY-Fw-eaz"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="1Nq-Wt-zVk"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Ajf-UT-FWt">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="KG8-3j-7P9"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Ll8-8t-6DC"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8X9-Wd-RBW">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="rfn-3v-F1t"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="m49-ai-a9u"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="HSc-pn-H8r">
+                    <connections>
+                        <action selector="panAction2:" destination="BYZ-38-t0r" id="gRp-3o-XqP"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Lgl-Zi-oL4"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="51" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
